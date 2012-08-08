@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Subject" />
+        <EditText 
+            android:id="@+id/txtnewSubject"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+     </LinearLayout>
+     
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Total" />
+        <EditText 
+            android:id="@+id/txtnewTotal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+     </LinearLayout>   
+     
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Present" />
+        <EditText 
+            android:id="@+id/txtnewPresent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+     </LinearLayout>  
+     <Button 
+         android:id="@+id/btnUpdate"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content" 
+         android:text="Update!"
+         android:onClick="click_btnUpdate"/>
+</LinearLayout>

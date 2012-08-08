@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:layout_marginTop="50dp"
+    android:background="@drawable/list_selector" >
+    
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="0,1,2,3">
+        <TableRow 
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp">
+	
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblSubject"
+        android:layout_gravity="center"        
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="#000000" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPercentage"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#000000" />
+    
+    <TextView
+        android:id="@+id/txtPresent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/captionPresent"        
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:textColor="#000000" />
+    
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/captionAbsent"        
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:textColor="#000000" />
+        </TableRow>
+	</TableLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Manager</string>
+    <string name="captionPresent">P</string>
+    <string name="captionAbsent">A</string>
+    <string name="captionForce">Force Update</string>
+    <string name="captionDetails">Details</string>
+    <string name="captionDelete">Delete</string>
+    <string name="Subject">Subject Name</string>
+    <string name="Present">Classes Present</string>
+    <string name="Total">Total Classes</string>
+    <string name="SearchByMonth">Search By Month</string>
+    <string name="SearchByDay">Search By Day And Month</string>
+
+</resources>
